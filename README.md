@@ -1,8 +1,9 @@
-# Adult Visual Novels Preservation Project
+# Visual Novels Preservation Project
 
 > Documenting, organizing, cataloging, and preserving adult visual novels as interactive literature, digital artwork, and software history.
 
 ---
+<img width="1619" height="971" alt="Eggmans_Visual_Novel_Collection" src="https://github.com/user-attachments/assets/8193ce94-1fa9-4a1a-956f-c2c5b3d760e8" />
 
 # Table of Contents
 
