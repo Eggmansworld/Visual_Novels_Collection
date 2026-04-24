@@ -1,7 +1,7 @@
 # Visual Novels Preservation Project
 
-archive size: 13.6TB (ZStandard)
-update cadence: semi-annually
+*Archive size: 13.6 TB (ZStandard)*  
+*Update cadence: semi-annually*
 
 > Documenting, organizing, cataloging, and preserving adult visual novels as interactive literature, digital artwork, and software history.
 
