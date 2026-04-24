@@ -3,6 +3,7 @@
 > Documenting, organizing, cataloging, and preserving adult visual novels as interactive literature, digital artwork, and software history.
 
 ---
+<img width="1619" height="971" alt="Eggmans_Visual_Novel_Collection" src="https://github.com/user-attachments/assets/4595ddc9-c144-4c26-a6b2-dd0df240d4e7" />
 
 # Table of Contents
 
