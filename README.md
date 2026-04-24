@@ -3,15 +3,13 @@
 > Documenting, organizing, cataloging, and preserving adult visual novels as interactive literature, digital artwork, and software history.
 
 ---
-<img width="1619" height="971" alt="Eggmans_Visual_Novel_Collection" src="https://github.com/user-attachments/assets/4595ddc9-c144-4c26-a6b2-dd0df240d4e7" />
 
-# Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [What Is a Visual Novel?](#what-is-a-visual-novel)
-- [Structural Elements of Visual Novels](#structural-elements-of-visual-novels)
-- [Japanese Origins and Global Growth](#japanese-origins-and-global-growth)
-- [Adult Visual Novel Scene](#adult-visual-novel-scene)
+- [A Brief History](#a-brief-history)
+- [The Adult Visual Novel Scene](#the-adult-visual-novel-scene)
 - [English Translation & Fan Patch Preservation](#english-translation--fan-patch-preservation)
 - [Why Preservation Matters](#why-preservation-matters)
 - [Major Databases & Community Sources](#major-databases--community-sources)
@@ -23,211 +21,147 @@
 
 ---
 
-# Overview
+## Overview
 
-Visual novels (VNs) are narrative-focused digital games that combine text, artwork, music, and user interaction. Originating primarily in Japan, the medium later expanded globally.
+This project documents, organizes, and preserves adult visual novels as historically significant born-digital media. The collection treats these works as what they are — interactive literature with artistic, cultural, and software heritage value — applying the same archival standards used across other preservation efforts in this suite.
 
-A substantial portion of the historical market included adult content. These works often blend explicit scenes with long-form storytelling, route-based narratives, roleplaying systems, and detailed illustration.
-
----
-
-# What Is a Visual Novel?
-
-A visual novel usually emphasizes:
-
-- Story over mechanical gameplay
-- Reading-based progression
-- Character relationships
-- Choice-driven branching
-- Multiple endings
-- Audio-visual presentation
-- Save/load route experimentation
-
-Related labels may include:
-
-- Novel game
-- Adventure game (ADV)
-- Eroge
-- Galge
-- Kinetic novel
-
-Source: Wikipedia Visual Novel article.
+Each entry in the datfile set is verified, cataloged with structured metadata, and packaged for long-term storage and integrity checking via RomVault-compatible XML dat files.
 
 ---
 
-# Structural Elements of Visual Novels
+## What Is a Visual Novel?
 
-## Text Engine
+A visual novel (VN) is a form of interactive fiction originating in Japan that combines static or animated character artwork, background illustrations, written narration, dialogue, music, and sound effects into a reading-driven experience. The genre sits at the intersection of literature, graphic novel, and software — closer to a Choose Your Own Adventure book rendered as a multimedia program than to a conventional video game.
 
-- Dialogue windows
-- Narration boxes
-- History/backlog logs
-- Auto-read mode
-- Skip read text
+The defining characteristic of a visual novel is its emphasis on story over mechanics. Gameplay, where it exists at all, typically consists of reading through scenes and periodically making choices that determine which narrative route the player follows, which characters they develop relationships with, and which of several possible endings they reach. Some titles are entirely linear — these are called **kinetic novels** — while others feature elaborate branching structures with dozens of mutually exclusive scenes, multiple love interests, hidden true endings, and substantial replay requirements to see all content.
 
-## Character Presentation
+Visually, the medium has a recognizable structure: a text box or dialogue window occupies the lower portion of the screen, character sprites are layered over painted or photographed backgrounds, and special **CG event scenes** — fully rendered illustrations — appear at emotionally or narratively significant moments. A history/backlog function allows players to scroll back through dialogue, and most engines include auto-read and skip-already-read-text modes to support replaying routes efficiently.
 
-- Layered sprites
-- Facial expressions
-- Outfit changes
-- Pose variants
+Audio is a core component. Most commercial Japanese titles feature full voice acting for non-protagonist characters, original soundtrack compositions, and layered ambient audio. Production values vary enormously, from small one-person hobbyist releases to multi-year commercial productions with budgets comparable to light anime series.
 
-## Background Art
+Related genre labels used interchangeably or with slight distinctions include:
 
-- Schools
-- Homes
-- Offices
-- Streets
-- Fantasy or sci-fi environments
-
-## CG Event Scenes
-
-Used for major emotional, romantic, dramatic, or adult scenes.
-
-## Audio Layer
-
-- Background music
-- Voice acting
-- Ambient audio
-- Sound effects
-
-## Route Structure
-
-Choices may determine:
-
-- Character routes
-- Good/bad endings
-- Hidden scenes
-- True endings
+| Term | Notes |
+|------|-------|
+| Novel game | Japanese industry term, often used by developers |
+| Adventure game (ADV) | Broader Japanese PC classification; VNs are a subset |
+| Eroge | Contraction of *erotic game*; not all eroge are VNs, and not all VNs are eroge |
+| Galge | Short for *gal game*; romance-focused VNs with female love interests |
+| Otome game | Romance VN with a female protagonist and male love interests |
+| Kinetic novel | Linear VN with no meaningful player choice |
 
 ---
 
-# Japanese Origins and Global Growth
+## A Brief History
 
-Visual novels became strongly associated with Japanese PC gaming during the 1990s. Lower production costs compared with large action titles allowed many studios to produce story-heavy works quickly.
+### Japanese Origins (1980s–1990s)
 
-Global growth later accelerated through:
+The visual novel genre grew from text adventure games on Japanese home computers in the early 1980s. Titles running on the NEC PC-8801 and PC-9801 platforms combined text-heavy adventure gameplay with early character illustrations, and adult content was part of the market from very early on — the relaxed content restrictions of the PC market compared with consoles made these platforms a natural home for eroge. Key early milestones included *Portopia Renzoku Satsujin Jiken* (Enix, 1983) on PC, a genre-defining mystery title, and the later commercial success of *YU-NO: A Girl Who Chants Love at the Bound of this World* (Elf, 1996), widely cited as a technical and narrative landmark.
 
-- Anime adaptations
-- Console ports
-- Steam releases
-- Fan translations
-- Ren'Py and other accessible engines
-- Original English-language VNs
+The 1990s saw the consolidation of the visual novel as a recognizable format, distinct from the earlier point-and-click adventure hybrid structure. Studios such as **Key** (founded 1998), **TYPE-MOON**, **Nitroplus**, and **Leaf** established the template of long-form, route-based storytelling with high-quality illustration and music that would define the commercial peak of the medium. Key's *Kanon* (1999), *Air* (2000), and *Clannad* (2004) are frequently cited as among the best-selling and most critically acclaimed titles of the era.
 
-Source: Wikipedia.
+### Console Ports and Mainstream Crossover (2000s)
 
----
+As adult content restricted distribution on consoles, many commercial VNs were produced in two versions: an adult PC release (*18+*) and an all-ages console port, typically for the PlayStation 2 or PlayStation Portable, with explicit scenes removed or replaced. This dual-release model became standard practice for larger studios and created one of the key preservation challenges the medium faces today — the adult PC version and the console all-ages version are distinct releases with different content, sometimes different scripts, and sometimes exclusive routes or endings on one platform or the other.
 
-# Adult Visual Novel Scene
+### Global Reach and Ren'Py Era (2010s–Present)
 
-Adult visual novels range from small romance titles to large productions with hundreds of thousands of words.
+International awareness of Japanese VNs expanded significantly through anime adaptations of titles like *Fate/stay night*, *Clannad*, and *Steins;Gate*, driving English-speaking audiences to seek out the original software. Official English localizations from companies such as MangaGamer, JAST USA, and later Sekai Project and Yen Press increased the availability of legitimate translated releases.
 
-Common formats:
-
-- Dating sims
-- Sandbox progression games
-- Corruption stories
-- Fantasy romance
-- Mystery / horror hybrids
-- RPG/VN hybrids
-- Comedy parody titles
-
-Adult content historically functioned as a viable funding model for smaller studios.
+Simultaneously, the open-source **Ren'Py** engine (released 2004, widely adopted through the 2010s) dramatically lowered the barrier to creating original visual novels, producing a large wave of English-language and international VN development. Platforms such as itch.io and later Steam became viable distribution channels for both translated Japanese titles and original Western productions. The Western adult VN market grew substantially through platforms like Patreon and itch.io, where developers could fund ongoing projects directly.
 
 ---
 
-# English Translation & Fan Patch Preservation
+## The Adult Visual Novel Scene
 
-For many years, numerous Japanese visual novels had no official English releases.
+Adult content in visual novels spans an enormous range — from brief romantic scenes in otherwise story-focused titles to productions built explicitly around adult content. The genre includes:
 
-Volunteer translators expanded the audience by creating:
+- Traditional romance and dating sim structures with adult routes
+- Sandbox progression games with stat management and unlockable scenes
+- Corruption and transformation narratives
+- Fantasy, sci-fi, and horror hybrid settings
+- Comedy and parody titles
+- Nukige — titles where explicit content is the primary focus rather than a component of a larger story
+- RPG/VN hybrids combining overworld exploration with visual novel presentation
 
-- English script patches
-- UI translations
-- Repacked installers
-- Compatibility fixes
-- Restoration patches
-- Documentation
-
-These communities helped preserve titles that otherwise remained inaccessible outside Japan.
-
-Important archival targets:
-
-- Original Japanese release
-- Official English release
-- Fan patch versions
-- Translator credits
-- Installation notes
-
-Sources: Wikipedia, VNDB community references.
+Adult content historically served as a direct funding mechanism for smaller studios that could not compete with mainstream game budgets. Many of the most technically and narratively ambitious works in the medium were adult titles — the adult market subsidized production values and development time that all-ages releases of the same scope could not have sustained commercially.
 
 ---
 
-# Why Preservation Matters
+## English Translation & Fan Patch Preservation
 
-Digital-only media is fragile.
+For the first two decades of the visual novel medium, the vast majority of titles received no official English release. Volunteer translation communities — working from Japanese script dumps, hex editors, and custom tooling — created patches that replaced in-game text with English translations, often also adapting menus, graphics containing Japanese text, and executable code to support Latin character sets.
 
-Common loss events:
+The output of these communities is itself a significant preservation target. Fan translations represent substantial volunteer labor and scholarship, and many remain the only English-language path to titles that were never commercially localized. Key archival targets for any given title include:
 
-- Dead file hosts
-- Deleted storefront pages
-- Lost patches
-- Broken DRM
-- Unsupported operating systems
-- Abandoned websites
+- **Original Japanese release** — the source text and original assets
+- **Official English release** — where one exists, including any censored or uncensored variants
+- **Fan patch versions** — including intermediate and final releases, which may differ in translation quality, content restoration, or compatibility
+- **Translator credits and documentation** — often published on project websites that have since gone offline
+- **Installation and compatibility notes** — many patches require specific base versions, regional settings, or locale emulation
 
-Adult books, magazines, VHS media, and pulp fiction are already collected historically. Adult visual novels merit the same archival treatment as born-digital media.
-
----
-
-# Major Databases & Community Sources
-
-## VNDB
-
-Useful for:
-
-- Releases
-- Languages
-- Staff credits
-- Tags
-- Platforms
-- Relationships between editions
-
-## Community Forums / Release Trackers
-
-Communities often track:
-
-- Updates
-- Patch notes
-- Mirrors
-- Bug reports
-- Developer announcements
-
-Together these sources document tens of thousands of titles worldwide.
+Where a title exists in both a censored console port and an uncensored PC original, the fan community sometimes created **restoration patches** applying adult content from the PC version back onto an all-ages release. These are distinct archival items from the standard translation patch.
 
 ---
 
-# Curated Completed Collection Standard
+## Why Preservation Matters
 
-## Inclusion Criteria
+Digital media is structurally more fragile than physical media in one specific way: its distribution infrastructure can vanish without warning. A book sitting on a shelf survives its publisher going bankrupt. A digital-only title whose DRM servers go offline, whose storefront delists it, or whose developer website disappears may become unplayable or completely inaccessible.
 
-- Completed core storyline
-- Stable public version
-- Verified playable build
-- Metadata captured
-- Version identified
+The visual novel medium faces several compounding risk factors:
 
-## Exclusion Criteria
+- **Storefront delisting** — adult content has been periodically purged from Steam and other platforms, sometimes with little notice and no alternative distribution arrangement
+- **Dead file hosts** — patch distribution sites, mirror hosts, and forums that hosted downloads have shut down continuously since the early 2000s
+- **Broken DRM** — older titles with custom copy protection may fail on modern operating systems without preservation-level patching
+- **Abandoned websites** — developer sites, fan translation project pages, and community wikis that contained version history, changelogs, and installation documentation are routinely lost
+- **OS incompatibility** — 16-bit Windows executables, early DirectX dependencies, and Japanese-locale-specific installers create technical barriers that grow over time
 
-- Tech demos
-- Broken uploads
-- Incomplete prototypes
-- Placeholder releases
+Adult VNs face an additional layer of risk: content moderation pressure on hosting platforms has historically led to the removal of adult-content releases without archival copies being made available elsewhere. The commercial and cultural legitimacy afforded to mainstream game preservation is often withheld from adult media, despite the same structural fragility applying equally.
+
+Adult books, pulp fiction, exploitation films, and adult magazines are collected by libraries, universities, and private archives as legitimate historical documents. Adult visual novels warrant identical treatment as born-digital cultural artifacts.
 
 ---
 
-# Metadata Specification
+## Major Databases & Community Sources
+
+### VNDB (Visual Novel Database)
+
+[vndb.org](https://vndb.org) is the primary structured database for visual novel metadata. It catalogs titles worldwide with entries covering releases by language, platform, and version; staff credits (writers, artists, composers, voice actors); tag taxonomies; character profiles; and relationships between different editions of the same title. VNDB is the reference standard for title identification, release disambiguation, and staff attribution in this collection.
+
+### F95Zone Community Forums
+
+F95Zone maintains one of the largest active communities for tracking Western adult VN development, including update threads, patch notes, mirrors, developer announcements, and community bug reports for thousands of titles. It is a primary source for tracking ongoing releases and version histories for independently developed Western titles.
+
+### Other Community Sources
+
+Archive.org, dedicated fan wikis, subreddits, and Discord servers associated with specific developers or translation projects supplement VNDB and forum tracking for titles with limited mainstream documentation.
+
+---
+
+## Curated Completed Collection Standard
+
+This datfile set applies consistent inclusion criteria to maintain a usable, verified collection.
+
+### Inclusion Criteria
+
+- Core storyline is complete and playable end-to-end
+- A stable, publicly released version exists
+- The build has been verified as playable
+- Metadata has been captured and structured
+- The specific version is identified in the dat entry
+
+### Exclusion Criteria
+
+- Tech demos and vertical slices without a complete narrative
+- Broken or corrupted uploads
+- Incomplete early-access or prototype releases where the story is unfinished
+- Placeholder or skeleton releases with no substantive content
+
+---
+
+## Metadata Specification
+
+Each title is documented with the following JSON structure:
 
 ```json
 {
@@ -251,70 +185,71 @@ Together these sources document tens of thousands of titles worldwide.
   "download_links": []
 }
 ```
+
+**Field notes:**
+
+- `censorship` — records whether the release is the uncensored original, a censored variant, or a restored/patched version
+- `language` — primary language of the release; fan-translated titles note the translation group where known
+- `genre` — drawn from VNDB tag taxonomy where applicable
+- `version` — specific version string; critical for patch-dependent titles where multiple releases exist
+- `installation` — documents any non-standard setup requirements (locale emulation, base version dependency, engine patches)
+- `extra_fields` — catch-all for title-specific metadata not covered by the standard schema
+
 ---
 
-# Archival Packaging
+## Archival Packaging
 
-1. Store JSON + HTML metadata
-2. Acquire original release
-3. Verify completeness
-4. Repackage into ZIP
+Each archived entry follows this workflow:
+
+1. Capture and store JSON + HTML metadata documents
+2. Acquire the original release in its native packaging
+3. Verify completeness against known file lists or community documentation
+4. Repackage into a clean ZIP archive with consistent structure
 5. Apply deterministic ZStandard compression
-6. Generate hashes
+6. Generate CRC32, MD5, and SHA1 hashes for dat file entry
 
-Benefits:
-
-- Reproducible archives
-- Easier deduplication
-- Reliable mirrors
-- Integrity verification
+This process ensures archives are reproducible across storage locations, deduplication works reliably across mirrors, and integrity can be verified at any point without requiring the original source to still be online.
 
 ---
 
-# FAQ
+## FAQ
 
-## What is a kinetic novel?
+**What is the difference between a visual novel and an eroge?**
+Eroge (*erotic game*) is a broader category covering any Japanese PC game with adult content, including action, RPG, and strategy titles. Visual novels are a subset of eroge when they contain adult content, but not all visual novels are eroge and not all eroge are visual novels.
 
-A linear VN with little or no player choice.
+**What is a kinetic novel?**
+A kinetic novel is a linear visual novel with no meaningful player choice. The story unfolds from start to finish without branching. Examples include *Planetarian: The Reverie of a Little Planet* (Key, 2004).
 
-## Why multiple endings?
+**Why are multiple endings significant?**
+Route and ending structures are a core tradition of the medium. Many titles gate their narrative payoff — including the canonical "true ending" — behind completing multiple character routes in a specific order. Preserving a title means preserving the complete branching structure, not just one playthrough path.
 
-Replayability and route depth are core genre traditions.
+**Why preserve fan patches separately from the base game?**
+A fan patch applied to a base game may be the only English-language version of a title that will ever exist. The patch itself is a distinct creative and scholarly work. The patcher's version, tools, and documentation have independent historical value and may be lost separately from the base game if not archived.
 
-## Why preserve fan patches?
-
-They may be the only path to accessibility for non-Japanese audiences.
-
-## Why archive completed titles?
-
-They provide historically stable snapshots.
-
----
-
-# Sources
-
-- Wikipedia: Visual Novel article  
-- VNDB informational pages / FAQ resources
+**Why focus on completed titles?**
+Completed titles represent historically stable snapshots. Ongoing releases require continuous re-archiving as versions change. The completed collection standard prioritizes depth of documentation over breadth of coverage.
 
 ---
 
-# Final Statement
+## Sources
 
-Visual novels are a fusion of literature, illustration, music, software, and player agency. Preserving adult visual novels alongside their translations, metadata, versions, and community history protects an important part of digital culture.
+- Wikipedia: [Visual novel](https://en.wikipedia.org/wiki/Visual_novel)
+- Wikipedia: [Eroge](https://en.wikipedia.org/wiki/Eroge)
+- VNDB: [vndb.org](https://vndb.org)
+- Ren'Py project: [renpy.org](https://renpy.org)
+
+---
 
 ## Licensing
 
-Original source code, scripts, tooling, and hand-authored documentation and
-metadata in this repository are licensed under the MIT License.
+Original source code, scripts, tooling, and hand-authored documentation and metadata in this repository are licensed under the **MIT License**.
 
-Archived game data, binaries, firmware, media assets, and other third-party
-materials are **not** covered by the MIT License and remain the property of
-their respective copyright holders.
+Archived game data, binaries, firmware, media assets, and other third-party materials are **not** covered by the MIT License and remain the property of their respective copyright holders.
 
 See the `LICENSE` and `NOTICE` files for full details and scope clarification.
 
 ---
 
-## CREDITS
+## Credits
 
-Created for the preservation community by Eggman, with Claude’s help turning ideas into code.
+Created for the preservation community by **Eggman**, with Claude's help turning ideas into code and documentation.
