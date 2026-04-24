@@ -1,12 +1,8 @@
-# Visual Novels Preservation Project
-
-*Archive size: 13.6 TB (ZStandard)*  
-*Update cadence: semi-annually*
+# Adult Visual Novels Preservation Project
 
 > Documenting, organizing, cataloging, and preserving adult visual novels as interactive literature, digital artwork, and software history.
 
 ---
-<img width="1619" height="971" alt="Eggmans_Visual_Novel_Collection" src="https://github.com/user-attachments/assets/8193ce94-1fa9-4a1a-956f-c2c5b3d760e8" />
 
 # Table of Contents
 
@@ -254,32 +250,16 @@ Together these sources document tens of thousands of titles worldwide.
   "download_links": []
 }
 ```
-
-Recommended additions:
-
-```json
-{
-  "engine": "",
-  "resolution": "",
-  "voice_language": "",
-  "translation_status": "",
-  "original_title": "",
-  "checksum_sha256": ""
-}
-```
-
 ---
 
 # Archival Packaging
 
-1. Acquire original release
-2. Verify completeness
-3. Extract package
-4. Preserve directory structure
-5. Generate hashes
-6. Repackage into ZIP
-7. Apply deterministic ZStandard compression
-8. Store JSON + HTML metadata
+1. Store JSON + HTML metadata
+2. Acquire original release
+3. Verify completeness
+4. Repackage into ZIP
+5. Apply deterministic ZStandard compression
+6. Generate hashes
 
 Benefits:
 
@@ -320,3 +300,20 @@ They provide historically stable snapshots.
 # Final Statement
 
 Visual novels are a fusion of literature, illustration, music, software, and player agency. Preserving adult visual novels alongside their translations, metadata, versions, and community history protects an important part of digital culture.
+
+## Licensing
+
+Original source code, scripts, tooling, and hand-authored documentation and
+metadata in this repository are licensed under the MIT License.
+
+Archived game data, binaries, firmware, media assets, and other third-party
+materials are **not** covered by the MIT License and remain the property of
+their respective copyright holders.
+
+See the `LICENSE` and `NOTICE` files for full details and scope clarification.
+
+---
+
+## CREDITS
+
+Created for the preservation community by Eggman, with Claude’s help turning ideas into code.
