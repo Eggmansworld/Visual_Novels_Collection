@@ -6,37 +6,31 @@
 
 # Table of Contents
 
-- Overview
-- What Is a Visual Novel?
-- Structural Elements of Visual Novels
-- Japanese Origins and Global Growth
-- Adult Visual Novel Scene
-- English Translation & Fan Patch Preservation
-- Why Preservation Matters
-- Major Databases & Community Sources
-- Curated Completed Collection Standard
-- Metadata Specification
-- Archival Packaging
-- FAQ
-- Sources
+- [Overview](#overview)
+- [What Is a Visual Novel?](#what-is-a-visual-novel)
+- [Structural Elements of Visual Novels](#structural-elements-of-visual-novels)
+- [Japanese Origins and Global Growth](#japanese-origins-and-global-growth)
+- [Adult Visual Novel Scene](#adult-visual-novel-scene)
+- [English Translation & Fan Patch Preservation](#english-translation--fan-patch-preservation)
+- [Why Preservation Matters](#why-preservation-matters)
+- [Major Databases & Community Sources](#major-databases--community-sources)
+- [Curated Completed Collection Standard](#curated-completed-collection-standard)
+- [Metadata Specification](#metadata-specification)
+- [Archival Packaging](#archival-packaging)
+- [FAQ](#faq)
+- [Sources](#sources)
 
 ---
 
 # Overview
 
-Visual novels (VNs) are narrative-focused digital games that combine text, artwork, music, and user interaction. Originating primarily in Japan, the medium became one of the most prolific forms of PC entertainment and later expanded globally.
+Visual novels (VNs) are narrative-focused digital games that combine text, artwork, music, and user interaction. Originating primarily in Japan, the medium later expanded globally.
 
-While some titles are all-ages, a substantial portion of the historical market included adult content. These works often blend explicit scenes with long-form storytelling, route-based narratives, roleplaying systems, and highly detailed illustration.
-
-Today, visual novels exist across Japanese, English, Chinese, Korean, and multilingual markets, with tens of thousands of entries cataloged online. :contentReference[oaicite:0]{index=0}
+A substantial portion of the historical market included adult content. These works often blend explicit scenes with long-form storytelling, route-based narratives, roleplaying systems, and detailed illustration.
 
 ---
 
 # What Is a Visual Novel?
-
-Wikipedia broadly describes visual novels as digitally-based narrative-focused games where progress is made by clicking, tapping, or selecting choices while reading story text. Common presentation includes character art, backgrounds, dialogue boxes, music, and branching paths. :contentReference[oaicite:1]{index=1}
-
-## Common Definitions
 
 A visual novel usually emphasizes:
 
@@ -48,177 +42,124 @@ A visual novel usually emphasizes:
 - Audio-visual presentation
 - Save/load route experimentation
 
-## Related Terms
-
-In Japan, related labels may include:
+Related labels may include:
 
 - Novel game
 - Adventure game (ADV)
-- Eroge (adult PC games)
-- Galge (dating-focused games)
-- Kinetic novel (little or no choices)
+- Eroge
+- Galge
+- Kinetic novel
 
-:contentReference[oaicite:2]{index=2}
+Source: Wikipedia Visual Novel article.
 
 ---
 
 # Structural Elements of Visual Novels
 
-## 1. Text Engine
-
-The text system is the core layer:
+## Text Engine
 
 - Dialogue windows
 - Narration boxes
-- Name tags
-- Backlog/history logs
+- History/backlog logs
 - Auto-read mode
-- Skip previously read text
+- Skip read text
 
-## 2. Character Presentation
+## Character Presentation
 
-Characters are often shown as layered sprites with:
-
+- Layered sprites
 - Facial expressions
 - Outfit changes
-- Pose variations
-- Emotional reactions
+- Pose variants
 
-## 3. Background Art
+## Background Art
 
-Static or lightly animated scenes such as:
-
-- Bedrooms
 - Schools
+- Homes
 - Offices
 - Streets
-- Fantasy settings
-- Sci-fi environments
+- Fantasy or sci-fi environments
 
-## 4. CG Event Scenes
+## CG Event Scenes
 
-Special illustrated moments used for:
+Used for major emotional, romantic, dramatic, or adult scenes.
 
-- Romance scenes
-- Climactic reveals
-- Action moments
-- Emotional endings
-- Adult scenes
-
-## 5. Audio Layer
+## Audio Layer
 
 - Background music
-- Character voices
-- Ambient loops
+- Voice acting
+- Ambient audio
 - Sound effects
 
-## 6. Route Structure
+## Route Structure
 
-Many VNs use branching paths where choices determine:
+Choices may determine:
 
 - Character routes
-- Good / bad endings
+- Good/bad endings
 - Hidden scenes
-- True ending unlocks
-- Story revelations
-
-## 7. Completion Systems
-
-Often includes:
-
-- Gallery unlocks
-- Scene replay
-- Music room
-- Completion percentage
-- Route flowcharts
+- True endings
 
 ---
 
 # Japanese Origins and Global Growth
 
-Visual novels became strongly associated with Japanese PC gaming during the 1990s. Lower production costs compared with large action games allowed many small studios to produce story-heavy titles rapidly. Adult content also became a common commercial model in that market. :contentReference[oaicite:3]{index=3}
+Visual novels became strongly associated with Japanese PC gaming during the 1990s. Lower production costs compared with large action titles allowed many studios to produce story-heavy works quickly.
 
-Later, global interest grew through:
+Global growth later accelerated through:
 
 - Anime adaptations
 - Console ports
-- Steam storefront releases
+- Steam releases
 - Fan translations
-- Open engines such as Ren'Py
+- Ren'Py and other accessible engines
 - Original English-language VNs
 
-:contentReference[oaicite:4]{index=4}
+Source: Wikipedia.
 
 ---
 
 # Adult Visual Novel Scene
 
-Adult visual novels range from simple romance titles to very large narrative productions with hundreds of thousands of words.
+Adult visual novels range from small romance titles to large productions with hundreds of thousands of words.
 
-## Common Formats
+Common formats:
 
 - Dating sims
 - Sandbox progression games
 - Corruption stories
 - Fantasy romance
-- Mystery / horror with adult scenes
+- Mystery / horror hybrids
 - RPG/VN hybrids
-- Slice-of-life relationship stories
 - Comedy parody titles
 
-## Why Adult Content Became Common
-
-Historically:
-
-- PC distribution enabled niche publishing
-- Smaller studios needed direct-paying audiences
-- Erotic content increased market visibility
-- Patreon/crowdfunding later supported indie developers
-
-Adult content often funded broader storytelling ambitions rather than replacing them.
+Adult content historically functioned as a viable funding model for smaller studios.
 
 ---
 
 # English Translation & Fan Patch Preservation
 
-## Why Translation Mattered
+For many years, numerous Japanese visual novels had no official English releases.
 
-For decades, many major Japanese visual novels never received official English releases. This created a barrier for international audiences.
-
-Volunteer fan translators helped open the medium globally by producing:
+Volunteer translators expanded the audience by creating:
 
 - English script patches
-- Interface translations
+- UI translations
 - Repacked installers
-- Engine compatibility fixes
+- Compatibility fixes
 - Restoration patches
-- Reinserted censored assets (where legally distributed)
+- Documentation
 
-## Cultural Importance
+These communities helped preserve titles that otherwise remained inaccessible outside Japan.
 
-Translation communities were essential because they:
-
-- Introduced non-Japanese audiences to landmark titles
-- Preserved obscure PC-98 / Windows-era releases
-- Prevented games from being lost to language barriers
-- Built demand for later official localizations
-- Created documentation, glossaries, and technical notes
-
-## Historical Example
-
-Even historically important early titles have only recently received fan translations, demonstrating how much of the medium remained inaccessible for decades. :contentReference[oaicite:5]{index=5}
-
-## Preservation Need
-
-Archives should preserve:
+Important archival targets:
 
 - Original Japanese release
-- Official English release (if any)
-- Fan translation patch versions
-- Patch notes
-- Translation credits
-- Engine requirements
-- Installation instructions
+- Official English release
+- Fan patch versions
+- Translator credits
+- Installation notes
+
+Sources: Wikipedia, VNDB community references.
 
 ---
 
@@ -226,30 +167,16 @@ Archives should preserve:
 
 Digital-only media is fragile.
 
-## Common Loss Events
+Common loss events:
 
 - Dead file hosts
-- Deleted Patreon posts
-- Abandoned websites
-- Broken DRM systems
-- Missing patches
-- Lost source art
-- Expired storefront licenses
+- Deleted storefront pages
+- Lost patches
+- Broken DRM
 - Unsupported operating systems
+- Abandoned websites
 
-## Cultural Value
-
-Adult books, magazines, VHS releases, underground comics, and pulp paperbacks are already collected as historical media. Adult visual novels deserve equal archival treatment as born-digital cultural artifacts.
-
-They document:
-
-- Independent creator economies
-- Internet fandom history
-- Changing aesthetics
-- Narrative experimentation
-- Software engines
-- Translation culture
-- Regional censorship trends
+Adult books, magazines, VHS media, and pulp fiction are already collected historically. Adult visual novels merit the same archival treatment as born-digital media.
 
 ---
 
@@ -257,29 +184,26 @@ They document:
 
 ## VNDB
 
-One of the most important public databases for visual novels.
-
 Useful for:
 
 - Releases
 - Languages
 - Staff credits
 - Tags
-- Platform support
+- Platforms
 - Relationships between editions
 
 ## Community Forums / Release Trackers
 
-Communities have historically tracked:
+Communities often track:
 
-- Update threads
-- Developer announcements
-- Bugfixes
+- Updates
+- Patch notes
 - Mirrors
-- Patch releases
-- User reviews
+- Bug reports
+- Developer announcements
 
-Together, public resources document tens of thousands of titles worldwide.
+Together these sources document tens of thousands of titles worldwide.
 
 ---
 
@@ -288,20 +212,17 @@ Together, public resources document tens of thousands of titles worldwide.
 ## Inclusion Criteria
 
 - Completed core storyline
-- Publicly released stable version
-- Playable start-to-finish
-- Verified archive integrity
-- Version identified
+- Stable public version
+- Verified playable build
 - Metadata captured
-- Title screen / cover art preserved
+- Version identified
 
 ## Exclusion Criteria
 
 - Tech demos
-- Scam placeholders
 - Broken uploads
 - Incomplete prototypes
-- Missing essential runtime files
+- Placeholder releases
 
 ---
 
@@ -328,23 +249,70 @@ Together, public resources document tens of thousands of titles worldwide.
   "developer_notes": "",
   "download_links": []
 }
+```
+
+Recommended additions:
+
+```json
+{
+  "engine": "",
+  "resolution": "",
+  "voice_language": "",
+  "translation_status": "",
+  "original_title": "",
+  "checksum_sha256": ""
+}
+```
 
 ---
 
-## Licensing
+# Archival Packaging
 
-Original source code, scripts, tooling, and hand-authored documentation and
-metadata in this repository are licensed under the MIT License.
+1. Acquire original release
+2. Verify completeness
+3. Extract package
+4. Preserve directory structure
+5. Generate hashes
+6. Repackage into ZIP
+7. Apply deterministic ZStandard compression
+8. Store JSON + HTML metadata
 
-Archived game data, binaries, firmware, media assets, and other third-party
-materials are **not** covered by the MIT License and remain the property of
-their respective copyright holders.
+Benefits:
 
-See the `LICENSE` and `NOTICE` files for full details and scope clarification.
+- Reproducible archives
+- Easier deduplication
+- Reliable mirrors
+- Integrity verification
 
 ---
 
-## CREDITS
+# FAQ
 
-Created for the preservation community by Eggman, with Claude’s help turning ideas into code.
+## What is a kinetic novel?
 
+A linear VN with little or no player choice.
+
+## Why multiple endings?
+
+Replayability and route depth are core genre traditions.
+
+## Why preserve fan patches?
+
+They may be the only path to accessibility for non-Japanese audiences.
+
+## Why archive completed titles?
+
+They provide historically stable snapshots.
+
+---
+
+# Sources
+
+- Wikipedia: Visual Novel article  
+- VNDB informational pages / FAQ resources
+
+---
+
+# Final Statement
+
+Visual novels are a fusion of literature, illustration, music, software, and player agency. Preserving adult visual novels alongside their translations, metadata, versions, and community history protects an important part of digital culture.
