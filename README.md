@@ -220,16 +220,13 @@ This process ensures archives are reproducible across storage locations, dedupli
 Eroge (*erotic game*) is a broader category covering any Japanese PC game with adult content, including action, RPG, and strategy titles. Visual novels are a subset of eroge when they contain adult content, but not all visual novels are eroge and not all eroge are visual novels.
 
 **What is a kinetic novel?**
-A kinetic novel is a linear visual novel with no meaningful player choice. The story unfolds from start to finish without branching. Examples include *Planetarian: The Reverie of a Little Planet* (Key, 2004).
-
-**Why are multiple endings significant?**
-Route and ending structures are a core tradition of the medium. Many titles gate their narrative payoff — including the canonical "true ending" — behind completing multiple character routes in a specific order. Preserving a title means preserving the complete branching structure, not just one playthrough path.
+A kinetic novel is a VN that does not present the "player" with any choices at all; they simply read through a single unbranching story. The term originates from Visual Art's brand KineticNovel (and all games produced under that brand are examples of this), but it is now also used to describe games by other companies with a similar structure. Examples include *Planetarian: The Reverie of a Little Planet* (Key, 2004). 
 
 **Why preserve fan patches separately from the base game?**
 A fan patch applied to a base game may be the only English-language version of a title that will ever exist. The patch itself is a distinct creative and scholarly work. The patcher's version, tools, and documentation have independent historical value and may be lost separately from the base game if not archived.
 
 **Why focus on completed titles?**
-Completed titles represent historically stable snapshots. Ongoing releases require continuous re-archiving as versions change. The completed collection standard prioritizes depth of documentation over breadth of coverage.
+Completed titles represent historically stable snapshots. Ongoing "Patreon/Subscribestar/monthly recurring subscription" releases require continuous re-archiving as versions change.  I've come to learn taht keeping up with ongoing releases is a horrendously time consuming task. It is also difficult to automate an automatic "keep latest version" workflow due to the VN authors being able to change their game version styles on a whim without regard to actually understanding how proper versioning works. 
 
 ---
 
