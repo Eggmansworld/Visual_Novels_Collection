@@ -228,6 +228,9 @@ A fan patch applied to a base game may be the only English-language version of a
 **Why focus on completed titles?**
 Completed titles represent historically stable snapshots. Ongoing "Patreon/Subscribestar/monthly recurring subscription" releases require continuous re-archiving as versions change.  I've come to learn taht keeping up with ongoing releases is a horrendously time consuming task. It is also difficult to automate an automatic "keep latest version" workflow due to the VN authors being able to change their game version styles on a whim without regard to actually understanding how proper versioning works. 
 
+**What can I do with the .HTML and .JSON files?**
+The HTML file is an extracted copy of the author's "first post" on F95Zone. It contains many details about the game including an introduction to the game and a cover picture.  The .JSON file contains the same information as the HTML page does, but in a machine-readable format that can be used for things like a frontend viewer. Without these files, you would need to go searching for each game title on the internet to find any information about them.
+
 ---
 
 ## Sources
