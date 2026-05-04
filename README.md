@@ -226,10 +226,12 @@ A kinetic novel is a VN that does not present the "player" with any choices at a
 A fan patch applied to a base game may be the only English-language version of a title that will ever exist. The patch itself is a distinct creative and scholarly work. The patcher's version, tools, and documentation have independent historical value and may be lost separately from the base game if not archived.
 
 **Why focus on completed titles?**
-Completed titles represent historically stable snapshots. Ongoing "Patreon/Subscribestar/monthly recurring subscription" releases require continuous re-archiving as versions change.  I've come to learn taht keeping up with ongoing releases is a horrendously time consuming task. It is also difficult to automate an automatic "keep latest version" workflow due to the VN authors being able to change their game version styles on a whim without regard to actually understanding how proper versioning works. 
+Completed titles represent the games that made it from inception to completion. For games that have story arcs, this can mean you actually get to the end of a story. Ongoing "Patreon/Subscribestar/monthly recurring subscription" game releases require continuous re-archiving as versions change, and sadly many ongoing titles end up getting abandoned along the way.
+
+I've also come to learn that keeping up with ongoing releases is a horrendously time consuming task. It is also difficult to automate a "keep latest version" workflow due to game authors changing their versioning on a whim without regard to actually understanding how proper versioning works. 
 
 **What can I do with the .HTML and .JSON files?**
-The HTML file is an extracted copy of the author's "first post" on F95Zone. It contains many details about the game including an introduction to the game and a cover picture.  The .JSON file contains the same information as the HTML page does, but in a machine-readable format that can be used for things like a frontend viewer. Without these files, you would need to go searching for each game title on the internet to find any information about them.
+The HTML file is an extracted copy of the game author's "first post" on F95Zone that contains the details about the game including an introduction to the game and a cover picture.  The .JSON file contains the same information but in a way that can be utilized by other apps, such as a frontend viewer. Without these files, you would have absolutely no on-hand info about each game.
 
 ---
 
