@@ -163,39 +163,7 @@ This datfile set applies consistent inclusion criteria to maintain a usable, ver
 
 ## Metadata Specification
 
-Each title is documented with the following JSON structure:
-
-```json
-{
-  "title": "",
-  "thread_url": "",
-  "source_url": "",
-  "metadata": {},
-  "overview": "",
-  "developer": "",
-  "platform": "",
-  "censorship": "",
-  "version": "",
-  "language": "",
-  "genre": [],
-  "installation": "",
-  "changelog": "",
-  "extra_fields": {},
-  "thread_updated": "",
-  "release_date": "",
-  "developer_notes": "",
-  "download_links": []
-}
-```
-
-**Field notes:**
-
-- `censorship` — records whether the release is the uncensored original, a censored variant, or a restored/patched version
-- `language` — primary language of the release; fan-translated titles note the translation group where known
-- `genre` — drawn from VNDB tag taxonomy where applicable
-- `version` — specific version string; critical for patch-dependent titles where multiple releases exist
-- `installation` — documents any non-standard setup requirements (locale emulation, base version dependency, engine patches)
-- `extra_fields` — catch-all for title-specific metadata not covered by the standard schema
+Each title is documented with all available metadata extracted from the original webpage and inserted into a game-specific JSON file.
 
 ---
 
